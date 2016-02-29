@@ -1,0 +1,35 @@
+PROJECTNAME = "Cur-Eat"
+
+USER = "larry@oakcity.io"
+PASSWORD = "ECMaV28QUDsiY"
+APPID = "com.foobar.appname"
+TEAMID = "BBBBX123NY"   # Find in apple's dev center under account info
+
+BUILDSERVER = "ci.foobar.com"      # value of platform.node() for build server
+
+STORE_METADATA = "../metadata"
+STORE_SNAPSHOTS = "../snapshots"
+
+# Working directories for picky tools
+SNAPSHOT_WD = ".."
+DELIVER_WD = ".."
+
+DEVBRANCH = "dev"
+PRODBRANCH = "master"
+
+GIT_REMOTE = "git@bitbucket.org:WidgetInc/cool_app.git"
+SLACK_HOOK = "https://hooks.slack.com/services/ASDF2345A/ASDF3333F/vX7ASdfASDFq434VASFeCDEn"
+
+# Paths are relative to scripts directory
+SSHKEY = "ssh/id_rsa"
+XCCONFIG = "../CodeDir/Common.xcconfig"
+
+# Crashlytics
+CRL_APIKEY = "abcdef123abcdef123abcdef123abcdef123febb"
+CRL_BUILDSECRET = "94947379502827252525253647473838394040adf092938371618d9d92828882"
+CRL_EMAIL = "jay@oakcity.io"
+CRL_SUBMIT = "../Pods/Crashlytics/submit"
+
+# Match certificate handling
+MATCH_GIT_URL = "git@bitbucket.org:WidgetInc/ios_certificates.git"
+MATCH_PASSWORD = "topsecret"
